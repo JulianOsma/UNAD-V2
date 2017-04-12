@@ -60,12 +60,46 @@
                 datos con cmd, esto porque aprendes los comando básicos y si en un futuro les toca eliminar o modificar cientos o 
                 miles de datos solo téndran que crear un script y ejecutarlo, con esto no modificaran dato por dato.
                 <br/>
-                Abrir el panel de control de Xampp y dar clic en la opcion Shell
+                Abrir el panel de control de Xampp  dar clic en start de apache y Mysql, dar clic en la opcion Shell.
                 <br/>
                 <figure><img src="img/Shell.png" width="948" height="390"/></figure>
                 <br/>
-                Para ingresar debemos ir al siguente comando mysql -u root -
-                
+                Para ingresar debemos escribir el siguiente comando mysql -u root -p, el sistema solicitara clave, no colocamos 
+                nada solo pulsamos enter. Esto si no has establecido una contraseña.
+                <br/>
+                <figure><img src="img/Usuario.png" width="948" height="390"/></figure>
+                <br/>
+                Para crear la base de datos esctibimos create database, una vez ejecutado el comando el sistema confirma que se 
+                creo
+                <br/>
+                <figure><img src="img/BD.png" width="948" height="390"/></figure>
+                <br/>
+                Para validar que la base de datos se haya creado esctibimos show databases, esto permite ver todas las bases de 
+                datos creadas.
+                <br/>
+                <figure><img src="img/Show.png" width="948" height="390"/></figure>
+                <br/>
+                vamos a utilizar la base de datos creada para generar tablas y para ello usamos el comando "use" + nombre de la
+                tabla "Unad", recueden que es el nombre que se le asigno a la Base de datos. El sistema nos mostrara que la Base
+                 de datos fue selecionada.
+                <br/>
+                <figure><img src="img/use.png" width="948" height="390"/></figure>
+                <br/>
+                Realizaremos una tabla con los siguentes campos: Cedula,nombre y apellido.
+                <br/>
+                <figure><img src="img/CreateTBL.png" width="948" height="390"/></figure>
+                 <br/>
+                para ver la tabla ingresamos el comando "describe" seguido del nombre que le asignamos a la tabla
+                 <br/>
+                <figure><img src="img/Describe.png" width="948" height="390"/></figure>
+                <br/>
+                Vamos a ingresar los datos como se muestran en la siguente imagen
+                <br/>
+                <figure><img src="img/Insert.png" width="948" height="390"/></figure>
+                <br/>
+                para mostrar los datos escribimos el siguente comando "selet * from" y el nombre de la tabla.
+                <br/>
+                <figure><img src="img/Select.png" width="948" height="390"/></figure>      
 
 
 				
